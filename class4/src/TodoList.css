@@ -1,5 +1,11 @@
-ul {
-    margin: 0;
-    padding: 0 0 56px 0;
-    list-style: none;
+/* .TodoList {
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-auto-columns: 400px;
+    place-content: center;
+    padding: 10px;
 }
+
+.lista{ 
+    list-style: none;
+} */

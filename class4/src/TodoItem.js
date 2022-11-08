@@ -3,11 +3,13 @@ import './TodoItem.css';
 
 function TodoItem(props){
     return(
-        <li>
-            <span>C</span>
-            <p>{props.text}</p>
-            <span>X</span>
-        </li>
+        
+        <section className="TodoItem">
+            <span className="realizada">✓</span>
+            <p className="item">{props.text}</p>
+            <span className="eliminar">✓</span>
+        </section>
+
     );
 }
 

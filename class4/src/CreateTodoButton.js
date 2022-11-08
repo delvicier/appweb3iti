@@ -3,7 +3,9 @@ import './CreateTodoButton.css'
 
 function CreateTodoButton(){
     return(
-        <button>+</button>
+        <section className="CreateTodoButton">
+            <button className="boton" type="submit">+</button>
+        </section>
     );
 }
 

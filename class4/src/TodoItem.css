@@ -1,0 +1,33 @@
+.TodoItem {
+    display: grid;
+    grid-auto-rows: 30px;
+    grid-auto-columns: 400px;
+    place-content: center;
+    padding: 10px;
+}
+
+
+.item{ 
+    background: #fafafb;
+    padding: 5px;
+    grid-area: 1/1/1/1;
+    border-radius: 8px;
+    text-align: center;
+    list-style: none;
+}
+
+.realizada{ 
+    padding: 5px;
+    grid-area: 1/1/1/1;
+    border-radius: 8px;
+    list-style: none;
+    text-align: right;
+}
+
+.eliminar{ 
+    padding: 5px;
+    grid-area: 1/1/1/1;
+    border-radius: 8px;
+    list-style: none;
+    text-align: left;
+}

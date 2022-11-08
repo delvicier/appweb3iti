@@ -1,0 +1,18 @@
+.TodoSearch {
+    display: grid;
+    grid-auto-rows: 40px;
+    grid-auto-columns: 400px;
+    place-content: center;
+    padding: 20px;
+}
+
+
+.buscar{ 
+    background: #fafafb;
+    padding: 10px;
+    grid-area: 1/1/1/1;
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px;
+    text-align: center;
+}

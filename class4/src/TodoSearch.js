@@ -3,7 +3,9 @@ import './TodoSearch.css';
 
 function TodoSearch(){
     return(
-        <input placeholder="Meow"/>
+        <section className="TodoSearch">
+            <input placeholder="Agregar nueva tarea" className="buscar"/>
+        </section>
     );
 }
 
