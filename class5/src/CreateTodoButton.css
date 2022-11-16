@@ -1,0 +1,20 @@
+.Contenedor{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CreateTodoButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #534edb6e;
+    color: #FAFAFA;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: bold;
+    height: 64px;
+    width: 64px;
+  }

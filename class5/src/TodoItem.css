@@ -1,0 +1,63 @@
+.Conten{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TodoItem {
+    background-color: #FAFAFA;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 24px;
+    width: 80%;
+  }
+  
+  .TodoItem-p {
+    margin: 24px 0 24px 24px;
+    width: calc(100% - 120px);
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .hecho {
+    position: absolute;
+    background-color: #4e76dbd6;
+    left: 12px;
+  }
+  
+  .eliminar {
+    position: absolute;
+    background-color: #db4e57d6;
+    right: 12px;
+  }
+
+  .TodoItem-p--complete {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  .hecho--active {
+    background-color: #40a4e1d6;
+  }
+
+  .eliminar:hover {
+    color: #db4e57d6;
+  }
