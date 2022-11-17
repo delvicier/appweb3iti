@@ -7,7 +7,7 @@ import { CreateTodoButton } from './CreateTodoButton';
 
 const defaultTodos = [
   { text: 'Crecer', completed: true },
-  { text: 'Bañarse', completed: true },
+  { text: 'Bañarse', completed: false },
   { text: 'Comer', completed: true },
 ]
 
