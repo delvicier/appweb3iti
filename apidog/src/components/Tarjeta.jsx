@@ -1,10 +1,11 @@
 import React from 'react'
 
-const Tarjeta = ({ dog }) => {
+const Tarjeta = ({ dog, imagen }) => {
   return (
     <div className='card'>
-        <img src={dog.image}alt="dog" />
-        <p>{dog.name}</p>
+        <img src={imagen.images}alt="dog" />
+        <p>{dog.names}</p>
+        <p>id: {imagen.ids}</p>
     </div>
   )
 }
